@@ -34,15 +34,6 @@
       "type": "richtext",
       "required": true
     },
-    "tag": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "author": {
       "pluginOptions": {
         "i18n": {
@@ -95,6 +86,41 @@
       },
       "type": "richtext",
       "required": true
+    },
+    "keywords": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "keyword.keyword"
+      ]
+    },
+    "translator": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "channel": {
+      "via": "articles",
+      "model": "channel"
+    },
+    "sources": {
+      "via": "article",
+      "collection": "source"
+    },
+    "issue": {
+      "via": "articles",
+      "model": "issue"
+    },
+    "statistic": {
+      "via": "article",
+      "model": "statistic"
     }
   }
 }
