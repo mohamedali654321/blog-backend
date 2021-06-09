@@ -19,8 +19,8 @@
       "targetField": "name"
     },
     "articles": {
-      "collection": "article",
-      "via": "channel"
+      "via": "channel",
+      "collection": "article"
     }
   }
 }

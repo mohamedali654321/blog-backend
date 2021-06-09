@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "sources",
   "info": {
-    "name": "source"
+    "name": "source",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,16 +11,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "url": {
-      "type": "string"
-    },
-    "article": {
-      "model": "article",
-      "via": "sources"
-    }
-  }
+  "attributes": {}
 }

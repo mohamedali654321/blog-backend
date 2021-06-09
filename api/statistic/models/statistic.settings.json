@@ -21,8 +21,8 @@
       "type": "integer"
     },
     "article": {
-      "model": "article",
-      "via": "statistic"
+      "via": "statistic",
+      "model": "article"
     }
   }
 }

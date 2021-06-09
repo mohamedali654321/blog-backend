@@ -19,8 +19,8 @@
       "type": "richtext"
     },
     "articles": {
-      "collection": "article",
-      "via": "issue"
+      "via": "issue",
+      "collection": "article"
     },
     "slug": {
       "type": "uid",
